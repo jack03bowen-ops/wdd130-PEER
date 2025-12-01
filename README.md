@@ -1,1 +1,1 @@
-https://github.com/jack03bowen-ops/wdd130-PEER.git
+https://jack03bowen-ops.github.io/wdd130-PEER/index.html
