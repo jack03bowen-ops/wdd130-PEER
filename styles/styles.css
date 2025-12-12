@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Special+Elite&display=swap');
+
+/* Cryptids and Creatures css 
+
+Font: Special Elite, Roboto Mono
+
+background-color: #393939;
+background-color: #000000;
+background-color: #E11B1D;
+background-color: #EEE9D1;
+
+*/
+
+body {
+    margin: 0px 0px;
+}
+
+/* Top box */
+
+.mtm {
+    border: solid 3px #000000;
+    box-shadow: 2px 2px 10px 1px #000000;
+    background-color: #EEE9D1;
+}
+
+.mtm h1 {
+    border: solid 3px #000000;
+    box-shadow: 2px 2px 10px 1px #000000;
+    background-color: #E11B1D;
+    font-family: "Special Elite", sans-serif;
+    font-size: 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 70px 0px;
+}
+
+/* Bottom grids */
+
+.monsters {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.monsters img {
+    border: solid 3px #000000;
+    box-shadow: 2px 2px 10px 1px #000000;
+}
+
+.monsters h2,
+.monsters p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.monsters #chupacabra h2,
+.monsters #mothman h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.monsters #bigfoot h2,
+.monsters #lochness h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.monsters h2 {
+    font-family: "Special Elite", sans-serif;
+}
+
+.monsters p {
+    font-family: "Roboto Mono", sans-serif;
+}
+
+/*  */
