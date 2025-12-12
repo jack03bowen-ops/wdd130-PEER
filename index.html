@@ -3,40 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Whispers of the Unknown</title>
+
+    <style>
+        body {
+            margin: 0;
+            background: white;
+            font-family: Arial, sans-serif;
+            color: #393939;
+        }
+
+        header {
+            background: #393939;
+            padding: 10px;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        h1 {
+            background: #e11b1d;
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        #quote {
+            text-align: center;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .section-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 20px;
+            background: #393939;
+            color: white;
+            padding: 30px;
+            margin-top: 20px;
+        }
+
+        .section-grid img {
+            width: 100%;
+            height: auto;
+            background: #ccc;
+        }
+
+        .full-text {
+            padding: 20px;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+    </style>
 </head>
-
-
 
 <body>
     <header>
         <nav>
             <a href="index.html">Homepage</a>
-            <a href="page1.html">Cryptids & Creatures</a>
+            <a href="meet_the_monsters.html">Cryptids & Creatures</a>
             <a href="page2.html">Stories & Legends</a>
         </nav>
     </header>
-    
+
     <h1>Welcome</h1>
 
     <p id="quote">“The oldest and strongest emotion of mankind is fear, and the oldest and strongest kind
     of fear is fear of the unknown.” — H.P. Lovecraft</p>
 
-    <p id="paragraph1">Welcome to Whispers of the Unknown, a site dedicated to the creatures, legends, and eerie
-    stories we’ve created to explain what we cannot understand. For centuries, the human mind has
-    filled the dark with imagined shapes and unsettling possibilities, turning uncertainty into
-    cryptids, whispered folklore, and chilling tales.</p>
+    
+    <div class="section-grid">
+        <img src="https://preview.redd.it/enhancing-famous-blurry-photos-bigfoot-loch-ness-monster-v0-gap6bz01s6fb1.jpg?width=640&crop=smart&auto=webp&s=c0403780281f9b28021b57d65946395013180eb5" alt="bigfoot">
 
-    <p id="paragraph2">Here, we explore these stories not just as myths, but as reflections of our psychology — the
-    fears, questions, and curiosities that drive us to give form to the unexplainable. Each page
-    uncovers how cultures around the world have transformed mystery into meaning, and how those
-    creations echo through our modern imaginations.</p>
+        <div>
+            <h2>The Unknown Beckons</h2>
+            <p>Welcome to Whispers of the Unknown, a site dedicated to the creatures, legends, and eerie
+            stories we’ve created to explain what we cannot understand. For centuries, the human mind has
+            filled the dark with imagined shapes and unsettling possibilities, turning uncertainty into
+            cryptids, whispered folklore, and chilling tales.</p>
 
-    <p id="paragraph3">Step inside and discover what our stories reveal about the shadows we see, the sounds we fear,
-    and the mysteries that continue to haunt us</p>
+            <p>Here, we explore these stories not just as myths, but as reflections of our psychology — the
+            fears, questions, and curiosities that drive us to give form to the unexplainable. Each page
+            uncovers how cultures around the world have transformed mystery into meaning, and how those
+            creations echo through our modern imaginations.</p>
+        </div>
 
-    <img src="" alt="bigfoot">
-    <img src="" alt="scarybed">
+        <img src="https://kellyjeanhorror.co.uk/wp-content/uploads/2019/08/Kelly-Jean-Horror-Clare-28.jpg" alt="scarybed">
+    </div>
+
+    
+    <div class="full-text">
+        <p id="paragraph3">Step inside and discover what our stories reveal about the shadows we see, the sounds we fear,
+        and the mysteries that continue to haunt us.</p>
+    </div>
 
 </body>
 </html>
